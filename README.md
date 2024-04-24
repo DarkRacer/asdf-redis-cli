@@ -29,7 +29,7 @@ Plugin:
 ```shell
 asdf plugin add redis-cli
 # or
-asdf plugin add redis-cli https://github.com/NeoHsu/asdf-redis-cli.git
+asdf plugin add redis-cli https://github.com/DarkRacer/asdf-redis-cli
 ```
 
 redis-cli:
@@ -55,8 +55,8 @@ install & manage versions.
 
 Contributions of any kind welcome! See the [contributing guide](contributing.md).
 
-[Thanks goes to these contributors](https://github.com/NeoHsu/asdf-redis-cli/graphs/contributors)!
+[Thanks goes to these contributors](https://github.com/DarkRacer/asdf-redis-cli/graphs/contributors)!
 
 # License
 
-See [LICENSE](LICENSE) © [Neo Hsu](https://github.com/NeoHsu/)
+See [LICENSE](LICENSE) © [Dark Racer](https://github.com/DarkRacer/)

@@ -39,7 +39,7 @@ download_release() {
   local version filename url
   version="$1"
   filename="$2"
-  url="http://download.redis.io/releases/redis-${version}.tar.gz"
+  url="https://github.com/redis/redis/archive/refs/tags/${version}.tar.gz"
 
   echo "* Downloading $TOOL_NAME release $version..."
   curl "${curl_opts[@]}" -o "$filename" -C - "$url" || fail "Could not download $url"
